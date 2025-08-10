@@ -1,0 +1,184 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:whitesmoke;
+    scroll-behavior: smooth;
+    height: 200vh;
+}
+.main-div{
+    background-color: whitesmoke;
+    height: 25vh;
+}
+.nav-icon{
+    float: left;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.nav-icon svg{
+    margin-inline: 14px;
+}
+.company-logo h2{
+    float: left;
+    margin-left: 370px;
+    margin-top: 80px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+.company-logo h2 .text-color{
+    color: rgba(255, 0, 0, 0.404);
+}
+.input-text{
+    float: right;
+    margin-right: 100px;
+    margin-top: 90px;
+}
+.input-text input{
+    padding: 1.5px;
+    width:50%; 
+}
+.input-text button{
+    background-color: rgba(0, 0, 255, 0.392);
+    color:whitesmoke;
+    border: none;
+    padding: 2.5px;
+    width: 130px;
+}
+.nav-icon .company-logo .input-text{
+    display: inline-block;
+}
+.text-content p{
+    display: inline-block;
+    margin-left: 580px;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+/* navber style */
+.navber-text{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.navber-text li{
+ list-style-type: none;
+ display: inline-block;
+ margin-top: 25px;
+ text-transform: uppercase;
+ margin-left: 45px;
+}
+.navber-text li a{
+    text-decoration: none;
+    color: #333;
+    
+}
+/* banner */
+.flex-banner{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.flex-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.flex-content h2{
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+.flex-content p{
+    text-align: center;
+    color: gray;
+    letter-spacing: 0.2rem;
+}
+.back-img{
+    background-image: url(./man-6530416_640.jpg);
+    width: 380px;
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    border: none;
+}
+.btn .view-btn{
+    border: none;
+    background-color: green;
+    color: whitesmoke;
+    padding: 10px;
+}
+.btn .Explore-btn{
+    border: 1px solid #333;
+    border-radius: 30px;
+    padding: 10px;
+}
+.btn:hover{
+    border: none;
+    cursor: pointer;
+}
+
+
+@media (max-width:84em) {
+    .nav-icon{
+        float: left;
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+    .nav-icon svg{
+        margin-inline: 14px;
+    }
+    .input-text{
+        display: none;
+    }
+    .company-logo h2{
+        font-size:large;
+        display:flex;
+        align-items: center;
+        text-align: center;
+        width: 800px;
+        text-transform: uppercase;
+        letter-spacing: 0.5rem;
+    }
+    .text-content p{
+        margin-left: 370px;
+    }
+    .flex-banner{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .back-img{
+        width: 240px;
+        height: 240px;
+    }
+    .flex-content h2{
+        font-size:medium;
+    }
+    .flex-banner p{
+        font-size: medium;
+        display:flex;
+        align-items: center;
+        text-align: center;
+        width: 400px;
+        
+    }
+    
+    
+}

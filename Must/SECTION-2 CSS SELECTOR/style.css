@@ -1,0 +1,51 @@
+/* Simple Selector */
+p{
+    color:red;
+}
+.demo-text{
+    color: green !important; 
+}
+#demo-text{
+    color:aquamarine;
+    border:2px solid black;
+    padding: 5px;
+}
+/* Universal Selector */
+/* *{
+    border: 1px solid black;
+    margin: 10px 20px 10px 20px;
+    padding: 20px 10px 50px 60px;
+} */
+/* Combination Selection */
+
+/*1.Decend Selector  */
+div p{
+    background-color: aquamarine;
+}
+/* Child Selector */
+div > p{
+    background-color: aqua;
+}
+/* Adjacent Sibling Selector */
+div + p{
+    color: blue;
+}
+/* Gentral Sibling Selector */
+div~p{
+    color: blue;
+}
+/* Pseudo Class Selector */
+a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px;
+    cursor: pointer;
+}
+/* Pseudo Element Selector */
+.pseudo::before{
+ content: 'Click Here';
+}
